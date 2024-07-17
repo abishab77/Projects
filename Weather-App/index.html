@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <section class="heading">
+        <h2>Weather</h2>
+    </section>
+    <main class="card">
+        <section class="search-field">
+            <input type="text" placeholder="Enter city name" class="input-field">
+
+            <button class="search-bar">Search
+
+            </button>
+
+
+
+        </section>
+        <section class="Location">
+            <br>
+            <button id="getloc"> Get Device Location</button>
+        </section>
+        <p id="invalid">Invalid City Name</p>
+
+
+        <section id="maincontent">
+            <section class="main">
+                <img class="main-img" src="./images/clear.png">
+                <h2 id="weather">23° C</h2>
+                <h3 id="cityName">Chennai</h3>
+
+            </section>
+
+            <section class="bottom">
+                <article class="humidity">
+                    <img src="images/humidity.png">
+                    <p id="humidity">64</p>
+
+
+                </article>
+
+                <article class="wind">
+                    <img src="images/wind.png">
+                    <p id="windSpeed">10km/h</p>
+
+
+                </article>
+
+
+            </section>
+            <section class="footer">
+                <p>Humidity</p>
+                <p>Wind Speed</p>
+            </section>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

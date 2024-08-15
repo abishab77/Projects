@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Form-Validation</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js " defer></script> 
+    </head>
+    <body>
+        <div class="container">
+            
+       <form id="form" method="post" action=" ">
+        <h2>Register</h2>
+        <div class="input-grp">
+            <label for="uname" >Username</label>
+            <input type="text" id="uname" name="name">
+            <div class="error"> </div>
+        </div>
+
+        <div class="input-grp">
+            <label for="email" >Email</label>
+            <input type="text" id="email" name="email">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-grp">
+            <label for="pass" >Password</label>
+            <input type="password" id="pass" name="pass">
+            <div class="error"> </div>
+        </div>
+
+        <div class="input-grp">
+            <label for="cpass" >Confirm Password</label>
+            <input type="password" id="cpass" name="cpass">
+            <div class="error"> </div>
+        </div>
+        <button type="submit" id="btn">Register</button>
+        <div class="submitted"></div>
+       </form>
+    </div>
+    </body>
+</html>

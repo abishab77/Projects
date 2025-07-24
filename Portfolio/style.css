@@ -366,7 +366,27 @@ a:checked~nav {
 #skills .js {
     background-color: #050A44;
     color: aliceblue;
-    width: 225px;
+    width: 255px;
+}
+#skills .java {
+    background-color: #050A44;
+    color: aliceblue;
+    width: 210px;
+}
+#skills .py {
+    background-color: #050A44;
+    color: aliceblue;
+    width: 210px;
+}
+#skills .sql {
+    background-color: #050A44;
+    color: aliceblue;
+    width: 204px;
+}
+#skills .py {
+    background-color: #050A44;
+    color: aliceblue;
+    width: 210px;
 }
 
 #slills .p-skill {
@@ -761,4 +781,10 @@ li.skills-item {
 
 
 
+}
+
+#project-para
+{
+    margin: 5% 1%;
+    text-align: center;
 }
